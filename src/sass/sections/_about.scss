@@ -29,6 +29,10 @@
       align-items: center;
       justify-content: center;
 
+      img {
+        border-radius: 50%;
+      }
+
       @include respond(tab-land) {
         height: 100%;
       }
