@@ -74,6 +74,7 @@
 .cta-btn--resume {
   color: $white-color;
   border: 2px solid $white-color;
+  margin-right: 1rem;
 
   &::after {
     background: $white-color;
@@ -88,12 +89,6 @@
     }
   }
 }
-
-.about-bts-container {
-  display: flex !important;
-  margin-top: 1rem !important;
-  justify-content: space-between;
-};
 
 .copy-btn {
   border: none;

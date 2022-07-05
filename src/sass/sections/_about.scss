@@ -79,6 +79,12 @@
         }
       }
     }
+
+    &__bts-container{
+      display: flex !important;
+      margin-top: 1rem !important;
+      justify-content: space-between;
+    }
   }
 }
 
