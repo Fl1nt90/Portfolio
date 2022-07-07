@@ -4,7 +4,6 @@ section {
 
   @include respond(phone) {
     border: none;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding: 1rem 1rem;
   }
 }

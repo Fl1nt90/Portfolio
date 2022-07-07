@@ -19,6 +19,12 @@ ORDER: Base + Typography > Generar Layout + Grid > Page Layout > Components
       @content;
     } //0 - 320px
   }
+  // Phone-se
+  @if $breakpoint == phone-se {
+    @media (max-height: 720px) {
+      @content;
+    } //HEIGHT 0 - 720px
+  }
   // Phone
   @if $breakpoint == phone {
     @media (max-width: 37.5em) {
