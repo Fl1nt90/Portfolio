@@ -3,20 +3,23 @@
   height: 100vh;
   display: flex;
   align-items: center;
-  border-bottom: 0px;
+  border-bottom: 0;
   background: $white-color;
   font-weight: 400;
   color: $dark-blue-text;
   padding: 0rem 5.6rem;
   margin-bottom: 0;
+  position: fixed;  // need to set margin-top: 100vh for #about section then
   top: 0;
   left: 0;
   bottom: 0;
   right: 0;
   z-index: -1;
 
+
+
   // Set position sticky so the jumbotron stays fixed while you scroll.
-  // position: sticky;
+  // position: sticky; -----> NO! SET position: fixed and margin-top: 100vh for #about section
 
   // If you want to set a background image on the hero section, uncomment these with your custom image
 
